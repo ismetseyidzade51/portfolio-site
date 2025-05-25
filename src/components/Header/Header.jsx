@@ -19,24 +19,24 @@ const Header = () => {
 
                     {/* Navbar links */}
                     <div className="collapse navbar-collapse" id="mainNav">
-                        <ul className="navbar-nav ms-auto">
+                        <ul className="navbar-nav ms-auto px-5">
                             <li className="nav-item">
-                                <a className="nav-link text-dark" href="#home">Home</a>
+                                <a className="nav-link" href="#home">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-dark" href="#about">About</a>
+                                <a className="nav-link" href="#about">About</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-dark" href="#process">Process</a>
+                                <a className="nav-link" href="#process">Process</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-dark" href="#portfolio">Portfolio</a>
+                                <a className="nav-link" href="#portfolio">Portfolio</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-dark" href="#blog">Blog</a>
+                                <a className="nav-link" href="#blog">Blog</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-dark" href="#services">Services</a>
+                                <a className="nav-link" href="#services">Services</a>
                             </li>
                             <li className="nav-item">
                                 <a className="btn custom-outline-btn ms-lg-2 mt-2 mt-lg-0" href="#contact" style={{ borderRadius: '5px'}}>
